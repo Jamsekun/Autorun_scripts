@@ -10,7 +10,7 @@ def main():
                      'D:\\Downloads\\Ongoing_Ass\\TUP_4th_yr\\UPDATE_onprem_bucal\\on_prem_dashboard'])
 
     # Run 'ionic serve' within the same command prompt
-    subprocess.Popen(['cmd.exe', '/k', 'ionic', 'serve'])
+    subprocess.Popen(['cmd.exe', '/k', 'ionic', 'serve', '--open'])
     # presses any key after 20 sec
     time.sleep(20)
     subprocess.Popen(['cmd.exe', '/k', '.'])
