@@ -27,7 +27,7 @@ def main():
     time.sleep(1)
 
     subprocess.Popen(['cmd.exe', '/k', 'cd', '/d',
-                      dashboard_path, '&&', 'set', 'NODE_OPTIONS=--max-old-space-size=8192', '&&', 'ionic', 'serve', '--address', local_ip, '--port', dashboard_port, '--disable-host-check', '--public-host', local_ip])
+                      dashboard_path, '&&', 'set', 'NODE_OPTIONS=--max-old-space-size=8192', '&&', 'ionic', 'serve', '--host', local_ip, '--port', dashboard_port, '--disable-host-check', '--public-host', local_ip])
     # subprocess.Popen(['cmd.exe', '/k', '.'])
     # Run 'ionic serve' within the same command prompt
     # subprocess.Popen(['cmd.exe', '/k', 'npm', 'run', 'backup'])
