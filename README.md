@@ -16,8 +16,8 @@ Follow these steps to set up the autorun scripts:
 3. **Create a shortcut of autorun_hiraya.bat**
 
 4. **Batch File in startup folder**: Move the `.bat` file to the startup folder.
-   -Press Windows+R
-   -type there 'shell:startup'
-   -place the shortcut of the `autorun_hiraya.bat`
+   - Press Windows+R
+   - Type there 'shell:startup'
+   - Place the shortcut of the `autorun_hiraya.bat`
 
 After completing these steps, the `on_prem_dashboard`, `on_prem_rtap_admin_api`, and `on_prem_plc_opcua` should automatically run at startup.
